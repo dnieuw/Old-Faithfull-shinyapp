@@ -27,4 +27,4 @@ shiny::runApp('app.R')
 
 ## Container
 
-This project uses the `rocker/tidyverse` Docker image, which includes R and the tidyverse packages. The devcontainer configuration automatically installs the `shiny` package when the Codespace is created
+This project uses the `rocker/tidyverse` Docker image, which includes R and the tidyverse packages. The devcontainer configuration automatically installs the `shiny` package when the Codespace is created.
