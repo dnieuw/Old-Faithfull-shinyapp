@@ -1,0 +1,13 @@
+{
+    "name": "R Shiny - Old Faithful",
+    "image": "rocker/tidyverse:latest",
+    "forwardPorts": [3838],
+    "postCreateCommand": "R -e \"install.packages('shiny', repos='https://cloud.r-project.org')\"",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "REditorSupport.r"
+            ]
+        }
+    }
+}
